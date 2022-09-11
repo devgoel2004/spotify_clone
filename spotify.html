@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="download.png" alt=""></li>
+            <div id="spotify">
+               <li class="spotify">Spotify</li>
+               <li><a href="#"> Home</a></li>
+               <li><a href=""> About</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1 class="clone">Best of My Songs</h1>
+            <div class="song_list">
+               <img src="aakhon.jpg" alt="1" width="100px" height="100px"><span id="song_name">Aakhon Se Batana</span>
+               <span class="time">3.41<i class="fas solid fa-play"></i></span>
+            </div><br>
+            <div class="song_list" >
+                <img src="chand.jpg" alt="1" width="100px" height="100px"><span id="song_name" style="font-size: 15px;">Chand Balliyan</span>
+                <span class="time">1.44<i class="fas solid fa-play"></i></span>
+             </div><br>
+             <div class="song_list">
+                <img src="chogada.jpg" alt="1" width="100px" height="100px"><span id="song_name">Chogada (Loveyatri)</span>
+                <span class="time">4.10<i class="fas solid fa-play"></i></span>
+             </div><br>
+             <div class="song_list">
+                <img src="teri.jpg" alt="1" width="100px" height="100px"><span id="song_name">Teri Aakhon Mein</span>
+                <span class="time">4.39<i class="fas solid fa-play"></i></span>
+             </div><br>
+             <div class="song_list">
+                <img src="subhanallah.jpg" alt="1" width="100px" height="100px"><span id="song_name" style="font-size:16px;">Subhanallah</span>
+                <span class="time">3.26<i class="fas solid fa-play"></i></span>
+             </div><br>
+             <div class="song_list">
+                <img src="ae_watan.jpg" alt="1" width="100px" height="100px"><span id="song_name">Ae Watan (Razzi)</span>
+                <span class="time">3.43<i class="fas solid fa-play"></i></span>
+             </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>   <!--Creation of song list-->
+        
+        <div class="banner">
+
+        </div>
+        <div class="bottom">
+            <input type="range" id="seekbar" min="0" max="100" class="song" value="0">
+            <!--Font Awesome icons-->
+            <div class="icons">
+            <i class="fas light fa-rotate-left"></i>
+            <i class="fas solid fa-forward"></i>
+            <i class="fas solid fa-play" id="play"></i>
+            <i class="fas solid fa-backward"></i>
+            <i class="fas thin fa-rotate-right"></i>
+            </div>
+            <div>
+                <img src="animation.gif" alt="" width="35px"height="20px">
+                <span>Aakhon Se Batana: Dikshit</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d5e2468329.js" crossorigin="anonymous"></script>
+    <script src="spotify.js"></script>
+</body>
+</html>
